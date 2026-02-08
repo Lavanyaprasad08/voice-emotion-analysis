@@ -1,0 +1,141 @@
+/* 🌈 Global Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    margin: 0;
+    padding: 0;
+}
+
+/* 📦 Main Container */
+.container {
+    width: 70%;
+    margin: auto;
+    background: #ffffff;
+    padding: 30px;
+    margin-top: 40px;
+    border-radius: 18px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+}
+
+/* 🎤 Main Title */
+h1 {
+    text-align: center;
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 25px;
+}
+
+/* 📝 Section Headings */
+h2 {
+    margin-top: 35px;
+    color: #444;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* 📤 Upload Form */
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+/* 🎧 File Input */
+input[type="file"] {
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+/* 🚀 Button */
+button {
+    padding: 12px 28px;
+    background: linear-gradient(90deg, #43cea2, #185a9d);
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* 📊 Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+table thead {
+    background: #4a5568;
+    color: white;
+}
+
+table th,
+table td {
+    padding: 14px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    font-size: 15px;
+}
+
+table tr:nth-child(even) {
+    background-color: #f7f7f7;
+}
+
+/* 🎭 Emotion Color Coding */
+.emotion.Positive {
+    color: #2ecc71;
+    font-weight: bold;
+}
+
+.emotion.Neutral {
+    color: #f39c12;
+    font-weight: bold;
+}
+
+.emotion.Negative {
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+.emotion.Unrecognized {
+    color: #7f8c8d;
+    font-style: italic;
+}
+
+/* 📈 Chart Image */
+img {
+    display: block;
+    margin: 40px auto 10px auto;
+    max-width: 90%;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+/* 📱 Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        padding: 20px;
+    }
+
+    form {
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+}
