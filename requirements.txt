@@ -1,6 +1,6 @@
 streamlit
-Flask
-SpeechRecognition
-pydub
-textblob
+numpy
 matplotlib
+librosa
+soundfile
+scikit-learn
